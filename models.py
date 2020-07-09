@@ -1,6 +1,4 @@
-from ext import *
-
-db = SQLAlchemy()
+from ext import db
 
 class User(db.Model):
     """ User Model """
