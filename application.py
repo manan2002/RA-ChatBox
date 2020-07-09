@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 from wtforms_fields import *
+from exts import db
 from models import *
 
 app = Flask(__name__)
